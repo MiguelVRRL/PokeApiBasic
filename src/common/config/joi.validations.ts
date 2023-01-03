@@ -1,7 +1,7 @@
 import * as joi from 'joi';
 
 export const joiValidationsSchema = joi.object({
-    mongodb: joi.required(),
-    port: joi.number().default(3001),
-    defaultLimit: joi.number().default(7),
+    MONGODB: joi.required(),
+    PORT: joi.number().default(3001),
+    DEFAULT_LIMIT: joi.number().default(7),
 })

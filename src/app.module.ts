@@ -14,6 +14,7 @@ import { joiValidationsSchema } from './common/config/joi.validations';
     ConfigModule.forRoot({
       load: [envConfigurations],
       validationSchema: joiValidationsSchema,
+      
     }),
     ServeStaticModule.forRoot({ rootPath: join(__dirname, '..', 'public') }),
     MongooseModule.forRoot(process.env.MONGODB),
