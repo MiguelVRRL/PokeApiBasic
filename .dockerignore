@@ -1,0 +1,7 @@
+# ignora los archivos al copiar
+/dist/
+node_modules/
+.git/
+.gitignore
+yarn-error.log
+docker-compose.yaml
