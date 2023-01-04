@@ -39,3 +39,7 @@ lerna-debug.log*
 
 # .env
 .env
+.env.prod
+
+# docker basic
+docker-compose.yaml

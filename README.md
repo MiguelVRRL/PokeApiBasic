@@ -7,6 +7,7 @@
 # ejecutar en desarrollo
 
 1.clonar el repositorio 
+
 2.ejecutar
 ```
 yarn install
@@ -46,3 +47,14 @@ http://localhost:3000/api/v2/seed
 ```
 systemctl start docker
 ```
+
+
+# Production Build
+1.Crear el archivo .env.prod
+
+2.Llenar las variables de entorno de prod
+
+3.buildear la nueva imagen:
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+ ```
